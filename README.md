@@ -11,6 +11,8 @@ See also dockerhub tags page: https://hub.docker.com/r/fablic/fluentd-ds-cloudlo
 
 ## Image versions
 
-- `0.0.1`, `latest`
+- `0.0.2`, `latest`
+  - add "record_reformer" plugin
+- `0.0.1`
   - fluentd: 1.7.4
   - fluent-plugin-google-cloud: 0.8.5
