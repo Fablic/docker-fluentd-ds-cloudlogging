@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    base64 (0.3.0)
     concurrent-ruby (1.1.7)
     cool.io (1.7.0)
     declarative (0.0.20)
@@ -136,7 +137,8 @@ GEM
     jsonpath (1.0.5)
       multi_json
       to_regexp (~> 0.2.1)
-    jwt (2.2.2)
+    jwt (2.10.3)
+      base64
     kubeclient (4.9.1)
       http (>= 3.0, < 5.0)
       jsonpath (~> 1.0)
